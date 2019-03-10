@@ -1,4 +1,4 @@
-package com.bitlocker.controller;
+package com.bitlocker.exception;
 
 public class BitPayException extends Exception {
 

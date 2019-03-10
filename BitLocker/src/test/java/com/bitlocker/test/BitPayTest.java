@@ -7,9 +7,9 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.bitlocker.controller.BitPay;
-import com.bitlocker.controller.BitPayException;
 import com.bitlocker.controller.BitPayLogger;
 import com.bitlocker.controller.KeyUtils;
+import com.bitlocker.exception.BitPayException;
 import com.bitlocker.model.*;
 
 import java.io.IOException;

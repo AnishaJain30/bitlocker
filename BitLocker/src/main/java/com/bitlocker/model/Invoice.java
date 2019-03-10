@@ -3,7 +3,7 @@ package com.bitlocker.model;
 import java.util.Hashtable;
 import java.util.List;
 
-import com.bitlocker.controller.BitPayException;
+import com.bitlocker.exception.BitPayException;
 import com.fasterxml.jackson.annotation.*;
 
 @JsonIgnoreProperties(ignoreUnknown=true)

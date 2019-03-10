@@ -3,7 +3,7 @@ package com.bitlocker.model;
 import java.util.List;
 
 import com.bitlocker.controller.BitPay;
-import com.bitlocker.controller.BitPayException;
+import com.bitlocker.exception.BitPayException;
 
 public class Rates {
 

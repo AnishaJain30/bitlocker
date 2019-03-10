@@ -1,5 +1,6 @@
 package com.bitlocker.controller;
 
+import com.bitlocker.exception.BitPayException;
 import com.bitlocker.model.*;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;

@@ -3,7 +3,7 @@ package com.bitlocker.model;
 import java.util.Collections;
 import java.util.List;
 
-import com.bitlocker.controller.BitPayException;
+import com.bitlocker.exception.BitPayException;
 import com.bitlocker.utils.DateDeserializer;
 import com.bitlocker.utils.DateSerializer;
 import com.fasterxml.jackson.annotation.*;
