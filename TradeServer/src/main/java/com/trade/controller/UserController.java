@@ -23,8 +23,9 @@ import com.trade.service.UserService;
 @RequestMapping(value = { "/user" })
 @CrossOrigin
 public class UserController {
+
 	@Autowired
-	UserService userService;
+	private UserService userService;
 
 	@GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<User> getUserById(@PathVariable("id") long id) {
