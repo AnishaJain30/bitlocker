@@ -13,31 +13,31 @@ import com.trade.repository.UserRepository;
 @Transactional
 public class UserServiceImp implements UserService {
 	@Autowired
-	UserRepository userRepository;
+	private UserRepository userRepository;
 
 	public void createUser(User user) {
-		// TODO Auto-generated method stub
 		userRepository.save(user);
 	}
 
 	public List<User> getUser() {
-		// TODO Auto-generated method stub
 		return (List<User>) userRepository.findAll();
 	}
 
 	public User findById(long id) {
-		// TODO Auto-generated method stub
 		return userRepository.findOne(id);
 	}
 
 	public User update(User user, long l) {
-		// TODO Auto-generated method stub
 		return userRepository.save(user);
 	}
 
 	public void deleteUserById(long id) {
-		// TODO Auto-generated method stub
 		userRepository.delete(id);
+	}
+
+	@Override
+	public User signIn(String userName, String password) {
+		return userRepository.SignIn(userName, password);
 	}
 
 }
